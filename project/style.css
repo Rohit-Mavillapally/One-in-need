@@ -1,0 +1,94 @@
+.logo {
+    height: 50px
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.banner {
+    margin: 0 16px;
+}
+.carousel-item{
+    border-radius: 10px;
+}
+
+.banner-img {
+    height: 519px;
+    object-fit: cover;
+}
+
+.services {
+    margin-top: 50px;
+}
+
+.service-box {
+    background-color: #B5CACD;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.service-box h5 {
+    color: #fff;
+    background-color: #324065;
+    margin: -10px -10px 10px -10px;
+    padding: 10px 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.innerbox {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.org-logo {
+    max-width: 100%;
+    height: auto;
+}
+
+h4{
+    margin-right: 950px;
+}
+footer {
+    background-color: #343a40;
+    color: #fff;
+}
+
+footer h5 {
+    margin-bottom: 20px;
+}
+
+footer .row {
+    margin: 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    footer .col-md-3 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+.nsslogo{
+        width: 200px; /* Ensures the image fills the width of the container */
+        height: 200px; /* Sets a fixed height for the image */
+        /*object-fit: cover; /* Ensures the image covers the area without stretching */
+        border-radius: 10px; /* Optional: Adds rounded corners */
+}
